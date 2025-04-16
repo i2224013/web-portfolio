@@ -13,8 +13,10 @@
     <script src="js/p5.js"></script>
     <script src="js/script.js"></script>
     <script src="js/math.js"></script>
-    <script src="js/lightbox.js"></script>
     <script src="js/lightbox.min.js"></script>
+    <link href="./css/lightbox.css" rel="stylesheet" media="all" type="text/css" />
+    <script src="./js/jquery-2.1.4.min.js" type="text/javascript"></script>
+</script>
 </head>
 <body>
     <a id="page-link" href="index1.html" class="hidden">ポートフォリオ２<br>プログラム編へ</a>
@@ -186,13 +188,13 @@
         <div class="page">
             <p>このページにペルソナ<br>次のページにコンセプトとデザインスタイルを掲載した。</p>
             <div class="container_big">
-                <img src="data/i2224013カゴタニ リュウト - 小課題2 ロゴのリデザイン ロゴの概要を決める_ページ_2.jpg">
+                <img src="data/redesignpage_2.jpg">
             </div>
         </div>
     
         <div class="page">
             <div class="container_big">
-                <img src="data/i2224013カゴタニ リュウト - 小課題2 ロゴのリデザイン ロゴの概要を決める_ページ_1.jpg"style=" text-align: center;">
+                <img src="data/redesignpage_1.jpg"style=" text-align: center;">
             </div>
         </div>
 
@@ -266,5 +268,12 @@
         <a id="page-link" href="index1.html" class="hidden">ポートフォリオ２<br>プログラム編へ</a>
     </div>
 
+    <script src="js/lightbox.js"></script>
+    <script>
+        lightbox.option({
+            'fitImagesInViewport' : true,
+            'wrapAround': true
+        })    
+    </script>
 </body>
 </html>

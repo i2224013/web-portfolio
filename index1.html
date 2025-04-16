@@ -13,8 +13,9 @@
     <script src="js/p5.js"></script>
     <script src="js/script.js"></script>
     <script src="js/math.js"></script>
-    <script src="js/lightbox.js"></script>
     <script src="js/lightbox.min.js"></script>
+    <link href="./css/lightbox.css" rel="stylesheet" media="all" type="text/css" />
+    <script src="./js/jquery-2.1.4.min.js" type="text/javascript"></script>
 </head>
 <body>
     <a id="page-link" href="index.html" class="hidden">ポートフォリオ１<br>デザイン編へ</a>
@@ -271,5 +272,12 @@
         <a id="page-link" href="index.html" class="hidden">ポートフォリオ１<br>デザイン編へ</a>
     </div>
 
+    <script src="js/lightbox.js"></script>
+    <script>
+        lightbox.option({
+            'fitImagesInViewport' : true,
+            'wrapAround': true
+        })    
+    </script>
 </body>
 </html>
