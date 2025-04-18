@@ -27,7 +27,7 @@ $(document).ready(function() {
         }
     });
 
-    $('[data-page]').on('click', function (e) {
+    $(document).on('click', '[data-page]',function (e) {
         e.preventDefault();
 
         // データ属性から移動先のページ番号を取得
