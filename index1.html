@@ -226,14 +226,11 @@
                 <a href="data/rgb_so.png" data-lightbox="photo02"><img src="data/rgb_so.png"></a>
             </div> 
 
-            <input type="number" id="num1" placeholder="数1">
-            <input type="number" id="num2" placeholder="数2">
+            <input type="number" id="num1" placeholder="16進00~ff">
             <button id="calculate">計算する</button>
             <script type="py">
-                num1 = int(Element("num1").element.value)
-                num2 = int(Element("num2").element.value)
-                result = num1 + num2
-                print(result)
+                mum10 = int(num,16)
+                print("10進:",num10,"0~1:",num10/255)
             </script>
         </div>
         <div class="page">
